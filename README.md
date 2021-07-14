@@ -1,2 +1,2 @@
 # leetcode
-Leetcode problem solutions
+Leetcode problem solutions. Solutions are provided in both python and java
