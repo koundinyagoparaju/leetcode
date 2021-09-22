@@ -9,13 +9,10 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        if head is None:
+        if head is None or head.next is None :
             return head
         
         first_pointer = head
-        
-        if first_pointer.next is None:
-            return first_pointer
         
         while first_pointer and first_pointer.next:
             second_pointer = first_pointer.next
